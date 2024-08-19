@@ -1,0 +1,7 @@
+.vbox_background_center {
+    -fx-background-image: url("../images/bg.jpeg");
+}
+
+.cursor_hand{
+    -fx-cursor:hand
+}

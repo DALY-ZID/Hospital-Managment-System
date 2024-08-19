@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.GestionMedicamenController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="44.0" prefWidth="803.0" style="-fx-background-color: #87CEEB;">
+            <Button fx:id="homeButton" mnemonicParsing="false" onAction="#handleHomeButtonAction" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #87CEEB; " text="🏠 Home" />
+
+            <Label prefHeight="30.0" prefWidth="313.0" style="-fx-font-size: 20;" text="List of Medicines" textFill="WHITE">
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+            <Label fx:id="timeLabel" prefHeight="18.0" prefWidth="100.0" text="00:00:00" textFill="WHITE" />
+            <Label fx:id="profilLabel" prefHeight="18.0" prefWidth="171.0" text="Admin" textFill="WHITE" />
+            <Button fx:id="logoutButton" onAction="#handleLogoutButtonAction" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #87CEEB; -fx-highlight-text-fill: white" text="Logout">
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin></Button>
+        </HBox>
+
+
+        <VBox spacing="10">
+            <HBox prefHeight="25.0" prefWidth="803.0">
+                <ImageView fitHeight="32.0" fitWidth="37.0">
+                    <image>
+                        <Image url="@../images/search.png" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="50.0" top="20.0" />
+                    </HBox.margin>
+                </ImageView>
+                <Region prefWidth="20.0" />
+                <TextField fx:id="searchTextField" alignment="CENTER" prefHeight="26.0" prefWidth="268.0" text="Search ... 🔎">
+                    <HBox.margin>
+                        <Insets top="30.0" />
+                    </HBox.margin>
+                </TextField>
+            </HBox>
+            <HBox prefHeight="226.0" prefWidth="661.0" spacing="20">
+                <TableView fx:id="tableView" prefHeight="247.0" prefWidth="322.0">
+                    <columns>
+                        <TableColumn fx:id="referenceColumn" prefWidth="78.39999085664749" text="Reference" />
+                        <TableColumn fx:id="libelleColumn" minWidth="0.0" prefWidth="129.39999389648438" text="Wording" />
+                        <TableColumn fx:id="prixColumn" minWidth="0.0" prefWidth="136.80003356933594" text="Price" />
+                    </columns>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+                </TableView>
+                <ImageView fitHeight="226.0" fitWidth="258.0">
+                    <image>
+                        <Image url="@../images/med.jpg" />
+                    </image>
+                </ImageView>
+            </HBox>
+        </VBox>
+        <VBox>
+            <Label textFill="#3f415e">
+            <VBox.margin>
+               <Insets left="170.0" right="10.0" top="2.0" />
+            </VBox.margin>
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+            <HBox alignment="CENTER">
+                <HBox alignment="CENTER" prefHeight="48.0" prefWidth="62.0">
+               <children>
+                       <ImageView fitHeight="45.0" fitWidth="45.0" onMouseClicked="#onAjouterButtonClick">
+                           <image>
+                               <Image url="@../images/addMed.png" />
+                           </image>
+                       </ImageView>
+               </children>
+                </HBox>
+                <HBox alignment="CENTER">
+                    <ImageView fitHeight="55.0" fitWidth="55.0" onMouseClicked="#onDeleteButtonClick">
+                        <image>
+                            <Image url="@../images/deleteMed.png" />
+                        </image>
+                  <HBox.margin>
+                     <Insets right="195.0" />
+                  </HBox.margin>
+                    </ImageView>
+                </HBox>
+            </HBox>
+        </VBox>
+
+    </children>
+</VBox>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="300" prefWidth="317.0" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.AjoutMedicamentController">
+
+    <children>
+        <Label style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: black;" text="Adding a Medicine" />
+
+        <GridPane alignment="CENTER" hgap="10" prefHeight="99.0" prefWidth="300.0" style="-fx-padding: 0 10 0 0;" vgap="5">
+            <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" />
+                <ColumnConstraints hgrow="ALWAYS" />
+                <ColumnConstraints />
+            </columnConstraints>
+
+            <TextField fx:id="refField" promptText="Reference" style="-fx-border-radius: 20px;" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <TextField fx:id="libelleField" promptText="Wording" style="-fx-border-radius: 5px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="prixField" promptText="Price" style="-fx-border-radius: 5px;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <ImageView fitHeight="82.0" fitWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.rowSpan="3">
+                <image>
+                    <Image url="@../images/2681803.png" />
+                </image>
+            </ImageView>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+
+        <Button fx:id="ajouterButton" onAction="#onAjouterButtonClick" prefHeight="26.0" prefWidth="71.0" style="-fx-text-fill: white;-fx-background-color: green" text="Add" />
+    </children>
+</VBox>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="534.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.HomeController">
+    <!-- Barre de navigation (navbar) -->
+    <HBox alignment="CENTER" prefHeight="38.0" prefWidth="804.0" style="-fx-background-color: #87CEEB;">
+        <ImageView fitHeight="30.0" fitWidth="30.0">
+            <image>
+                <Image url="@../images/Menu_icon.png" />
+            </image>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </ImageView>
+        <Label prefHeight="30.0" prefWidth="313.0" style="-fx-font-size: 20;" text="Hospital Managment" textFill="WHITE">
+            <HBox.margin>
+                <Insets left="10.0" />
+            </HBox.margin>
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+        </Label>
+        <Label fx:id="timeLabel" prefHeight="18.0" prefWidth="100.0" text="00:00:00" textFill="WHITE" />
+        <Label fx:id="profilLabel" prefHeight="18.0" prefWidth="171.0" text="Admin" textFill="WHITE" />
+        <Button fx:id="logoutButton" onAction="#handleLogoutButtonAction" prefHeight="26.0" prefWidth="93.0" style="-fx-background-color: #87CEEB; -fx-highlight-text-fill: white" text="Logout">
+            <HBox.margin>
+                <Insets right="10.0" />
+            </HBox.margin></Button>
+    </HBox>
+
+    <!-- Titre de la page -->
+
+
+    <!-- Conteneur pour les images -->
+    <HBox alignment="CENTER" layoutY="50" spacing="20">
+        <!-- Image pour "Consulter Patient" -->
+        <VBox alignment="CENTER" />
+
+        <!-- Image pour "Gestion Médicament" -->
+        <VBox alignment="CENTER" />
+    </HBox>
+      <ImageView fitHeight="159.0" fitWidth="164.0" layoutX="510.0" layoutY="163.0">
+          <image>
+              <Image url="@../images/patient1.jpg" />
+          </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="164.0" layoutX="119.0" layoutY="163.0">
+          <image>
+              <Image url="@../images/medicament.jpg" />
+          </image>
+      </ImageView>
+   <Button layoutX="119.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleMedicamentButtonAction" prefHeight="26.0" prefWidth="164.0" style="-fx-background-color: #87CEEB;-fx-font-weight: bold" text="Medication Management">
+       <tooltip>
+           <Tooltip text="Gestion des médicament" />
+       </tooltip>
+   </Button>
+   <Button fx:id="patientsButton" layoutX="510.0" layoutY="344.0" mnemonicParsing="false" onAction="#handlePatientButtonAction" prefHeight="26.0" prefWidth="164.0" style="-fx-background-color: #87CEEB;-fx-font-weight: bold" styleClass="cursor_hand" text="Patient Management" >
+        <tooltip>
+            <Tooltip text="Gestion des patients" />
+        </tooltip>
+   </Button>
+</AnchorPane>

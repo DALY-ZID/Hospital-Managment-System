@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.MedicamentConsultationController">
+
+
+    <!-- Conteneur pour les images -->
+    <HBox alignment="CENTER" layoutY="50" spacing="20">
+        <!-- Image pour "Consulter Patient" -->
+        <VBox alignment="CENTER" />
+
+        <!-- Image pour "Gestion Médicament" -->
+        <VBox alignment="CENTER" />
+    </HBox>
+    <ImageView fitHeight="130.0" fitWidth="145.0" layoutX="86.0" layoutY="89.0">
+        <image>
+            <Image url="@../images/medicament.jpg" />
+        </image>
+    </ImageView>
+    <Button fx:id="Medicament" layoutX="86.0" layoutY="274.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="164.0" style="-fx-background-color: #87CEEB;-fx-font-weight: bold" text="Medication Management">
+        <tooltip>
+            <Tooltip text="Mettre à jour les données" />
+        </tooltip>
+    </Button>
+    <Button fx:id="Consultation" layoutX="296.0" layoutY="274.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="172.0" style="-fx-background-color: #87CEEB;-fx-font-weight: bold"  text="Appointment management" />
+    <ImageView fitHeight="138.0" fitWidth="130.0" layoutX="312.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../images/rendezvous.png" />
+        </image></ImageView>
+
+</AnchorPane>

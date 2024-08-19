@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="403.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.GestionConsultationController">
+   <children>
+      <TableView fx:id="tabConsultation" layoutX="34.0" layoutY="72.0" prefHeight="270.0" prefWidth="381.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="404.0" layoutY="91.0" />
+      <Label layoutX="33.0" layoutY="29.0" prefHeight="26.0" prefWidth="53.0" style="-fx-color-label-visible: #097326;-fx-font-weight: bold" text="Date :">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font></Label>
+      <DatePicker fx:id="date" layoutX="87.0" layoutY="30.0" />
+       <Button fx:id="btnAjouter" cacheShape="false" layoutX="274.0" layoutY="30.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: #097326;-fx-font-weight: bold" text="➕" />
+       <Button fx:id="btnSupprimer" layoutX="329.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: #af0c0c;-fx-font-weight: bold" text="🚮" />
+       <Button fx:id="btnModifier" layoutX="378.0" layoutY="30.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: #cc08ea;-fx-font-weight: bold" text="🖊" />
+   </children>
+</AnchorPane>

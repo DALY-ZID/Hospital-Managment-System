@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="428.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniprojet.home.GestionMedicamentPatientController">
+   <children>
+      <TableView fx:id="tabPatientMed" layoutX="36.0" layoutY="62.0" prefHeight="200.0" prefWidth="297.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="36.0" layoutY="31.0" text="Patient's medication list :">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl" layoutX="250.0" layoutY="31.0" text="L">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="listMed" layoutX="44.0" layoutY="277.0" prefHeight="26.0" prefWidth="176.0" promptText="Medication to add" />
+      <Button fx:id="btnAddMP" layoutX="242.0" layoutY="277.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #097326; -fx-text-fill: #fff;" text="Add" />
+      <Button fx:id="btnRemoveMP" layoutX="317.0" layoutY="278.0" mnemonicParsing="false" style="-fx-background-color: #cc0618; -fx-text-fill: #fff;" text="Remove" />
+   </children>
+</AnchorPane>

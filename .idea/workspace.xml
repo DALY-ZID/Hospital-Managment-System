@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f576d4f6-3405-454e-b8ec-b25c15b4dffb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/Consultation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/Exception/ChampVideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/Exception/CinException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/Exception/TelephoneException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/MedicamentConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/data/ConsultaionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-consultation-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/medicament-consultation-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/images/medication.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/images/medication1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/images/rendezvous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/Consultation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/Exception/ChampVideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/Exception/CinException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/Exception/TelephoneException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/MedicamentConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/data/ConsultaionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-consultation-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/medicament-consultation-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/images/rendezvous.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/AjoutMedicamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/AjoutMedicamentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionHospitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionHospitalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionMedicamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionMedicamenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionMedicamentPatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionMedicamentPatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionPatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/GestionPatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/LoginPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/LoginPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/MedicamentPatientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/MedicamentPatientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/java/com/example/miniprojet/home/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/ajout-medicament-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/ajout-medicament-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-mediacament-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-mediacament-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-medicament-patient-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-medicament-patient-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-patient-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/gestion-patient-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniProjet/MiniProjet/src/main/resources/com/example/miniprojet/home/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/AjoutMedicamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/AjoutMedicamentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionHospitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionHospitalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionMedicamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionMedicamenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionMedicamentPatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionMedicamentPatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionPatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/GestionPatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/LoginPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/LoginPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/MedicamentPatientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/MedicamentPatientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet/home/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/ajout-medicament-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/ajout-medicament-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-mediacament-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-mediacament-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-medicament-patient-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-medicament-patient-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-patient-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/gestion-patient-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet/home/login-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DALY-ZID&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YessinMontassar/MiniProjetJavaFX.git&quot;,
+    &quot;accountId&quot;: &quot;8fee2703-f5e6-4043-92b1-0b76392c920c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gEyvT5aQFAc9kmaYHZnqprj4yP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GestionHospitalApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/DSI2/SEM2-DSI2/POO/MiniProjet/MiniProjet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19655173",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DSI2\SEM2-DSI2\POO\MiniProjet\src\main\java\com\example\miniprojet\home" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f576d4f6-3405-454e-b8ec-b25c15b4dffb" name="Changes" comment="" />
+      <created>1715277261652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715277261652</updated>
+      <workItem from="1715277262882" duration="6318000" />
+      <workItem from="1715332339671" duration="167000" />
+      <workItem from="1715356538328" duration="3239000" />
+      <workItem from="1715468814770" duration="5000" />
+      <workItem from="1715468905967" duration="57000" />
+      <workItem from="1715541827550" duration="3458000" />
+      <workItem from="1715695645024" duration="4228000" />
+      <workItem from="1715707233394" duration="262000" />
+      <workItem from="1715720671105" duration="646000" />
+      <workItem from="1715722876203" duration="1623000" />
+      <workItem from="1715888482405" duration="542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

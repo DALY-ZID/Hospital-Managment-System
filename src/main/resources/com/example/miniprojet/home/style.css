@@ -1,0 +1,98 @@
+/* style.css */
+
+/* Styles de base */
+.root {
+    -fx-background-color: #f0f0f0; /* Couleur de fond */
+}
+
+/* Styles du menu */
+.menu-bar {
+    -fx-background-color: #24d8f1; /* Couleur de fond */
+}
+
+.menu-bar .menu {
+    -fx-text-fill: #fff; /* Couleur du texte */
+}
+
+.menu-bar .menu-item {
+    -fx-text-fill: #fff; /* Couleur du texte */
+}
+
+/* Styles des séparateurs */
+.separator {
+    -fx-background-color: #ccc; /* Couleur de fond */
+}
+
+/* Styles des étiquettes */
+.label {
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-text-fill: #333; /* Couleur du texte */
+    -fx-font-family: "Bell MT";
+}
+
+
+/* Styles des boutons */
+.button {
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-text-fill: #fff; /* Couleur du texte */
+    -fx-background-color: #007bff; /* Couleur de fond */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Style des boutons spéciaux */
+#btnImprime {
+    -fx-background-color: #0056b3; /* Couleur de fond */
+}
+
+#btnImprime:hover {
+    -fx-background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+#btnAdd {
+    -fx-background-color: #097326; /* Couleur de fond */
+}
+
+#btnAdd:hover {
+    -fx-background-color: #097326; /* Couleur de fond au survol */
+}
+
+#btnSupprime {
+    -fx-background-color: #af0c0c; /* Couleur de fond */
+}
+
+#btnSupprime:hover {
+    -fx-background-color: #af0c0c; /* Couleur de fond au survol */
+}
+
+#btnModife {
+    -fx-background-color: #17a2b8; /* Couleur de fond */
+}
+
+#btnModife:hover {
+    -fx-background-color: #138496; /* Couleur de fond au survol */
+}
+
+/* Styles du tableau */
+
+/* Style de l'image */
+.image-view {
+    -fx-border-color: #333; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Largeur de la bordure */
+}
+
+/* Style du champ de recherche */
+#btnRechercher {
+    -fx-font-size: 16px; /* Taille de police */
+    -fx-text-fill: #333; /* Couleur du texte */
+    -fx-background-color: #6c757d; /* Couleur de fond */
+}
+
+#btnRechercher:hover {
+    -fx-background-color: #5a6268; /* Couleur de fond au survol */
+}
+
+
+
